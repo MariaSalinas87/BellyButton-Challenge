@@ -170,7 +170,11 @@ function buildCharts(sample) {
       margin: { t: 0, b: 0 } ,
       paper_bgcolor: 'rgba(0,0,0,0)',
       plot_bgcolor: 'rgba(0,0,0,0)',
+
+     
     };
+
+    var config = {responsive:true}
     // Deliverable 3: 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot("gauge", trace3, gaugeLayout);
   });
